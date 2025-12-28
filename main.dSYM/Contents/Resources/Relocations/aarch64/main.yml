@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jessekim/Documents/GitHub/MLAT-Calculator/main'
+relocations:
+  - { offset: 0x36CA, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x1818C, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x37E3, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_main.cpp, symObjAddr: 0x74, symBinAddr: 0x1000006C4, symSize: 0x14 }
+  - { offset: 0x37FA, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x38, symBinAddr: 0x100000688, symSize: 0x3C }
+  - { offset: 0x3818, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000650, symSize: 0x38 }
+...
