@@ -63,7 +63,7 @@ double findError(const Eigen::Vector3d x_true, const Eigen::Vector3d x_est) {
 int main() {
     using Eigen::Vector3d;
 
-    Vector3d x_true(0.5, 0.5, 0.5);
+    Vector3d x_true(0.1, 0.3, 0.8);
 
     std::vector<Vector3d> references = {
         {0.0, 0.0, 0.0},
