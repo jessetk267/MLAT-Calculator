@@ -1,3 +1,7 @@
 {
-    "C_Cpp.default.compilerPath": "/opt/homebrew/bin/g++"
+    "C_Cpp.default.compilerPath": "/opt/homebrew/bin/g++ -I /usr/include/eigen3",
+    "C_Cpp.default.includePath": [
+        "/opt/homebrew/include/eigen3",
+        "${workspaceFolder}/**"
+    ]
 }
