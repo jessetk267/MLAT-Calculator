@@ -9,43 +9,12 @@
     -O2 -o mlat
  */
 
-int main() {
-    using Eigen::Vector3d;
-
-    Vector3d x_true(0.5, 0.5, 0.5);
-
-    std::vector<Vector3d> references = {
-        {0.0, 0.0, 0.0},
-        {1.0, 0.0, 0.0},
-        {0.0, 1.0, 0.0},
-        {0.0, 0.0, 1.0}
-    };
-
-    std::vector<double> ranges = findRanges(x_true, references);
-
-    Vector3d x_est = findPoint(references, ranges);
-
-    double error = findError(x_true, x_est);
-
-    std::cout << "True position:\n" << x_true.transpose() << "\n\n";
-    std::cout << "Estimated position:\n" << x_est.transpose() << "\n\n";
-    std::cout << "Position error:\n" << error << std::endl;
-
-    return 0;
-}
-
-struct Point3d {
-    double x, y, z;
-};
-
 std::vector<double> findRanges(const Eigen::Vector3d x_true, const std::vector<Eigen::Vector3d> references) {
     using Eigen::Vector3d;
     using Eigen::MatrixXd;
     using Eigen::VectorXd;
 
     const int n = references.size();
-
-    Vector3d x_true(0.5, 0.5, 0.5);
 
     std::vector<double> S(n);
 
@@ -89,4 +58,29 @@ Eigen::Vector3d findPoint(const std::vector<Eigen::Vector3d> references, const s
 
 double findError(const Eigen::Vector3d x_true, const Eigen::Vector3d x_est) {
     return (x_est - x_true).norm();
+}
+
+int main() {
+    using Eigen::Vector3d;
+
+    Vector3d x_true(0.5, 0.5, 0.5);
+
+    std::vector<Vector3d> references = {
+        {0.0, 0.0, 0.0},
+        {1.0, 0.0, 0.0},
+        {0.0, 1.0, 0.0},
+        {0.0, 0.0, 1.0}
+    };
+
+    std::vector<double> ranges = findRanges(x_true, references);
+
+    Vector3d x_est = findPoint(references, ranges);
+
+    double error = findError(x_true, x_est);
+
+    std::cout << "True position:\n" << x_true.transpose() << "\n\n";
+    std::cout << "Estimated position:\n" << x_est.transpose() << "\n\n";
+    std::cout << "Position error:\n" << error << std::endl;
+
+    return 0;
 }
