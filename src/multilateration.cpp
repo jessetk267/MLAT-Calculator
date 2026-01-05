@@ -1,6 +1,10 @@
 #include <iostream>
 #include <vector>
 #include <Eigen/Dense>
+#include <pybind11/pybind11.h>
+#include <pybind11/stl.h>
+
+namespace py = pybind11;
 
 //Compile with:
 /**
