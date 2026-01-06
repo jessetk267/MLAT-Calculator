@@ -972,8 +972,27 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: \
   /opt/homebrew/include/pybind11/detail/init.h \
   /opt/homebrew/include/pybind11/gil_safe_call_once.h \
   /opt/homebrew/include/pybind11/typing.h \
-  /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/mlat.hpp \
-  /opt/homebrew/include/eigen3/Eigen/Dense \
+  /opt/homebrew/include/pybind11/eigen.h \
+  /opt/homebrew/include/pybind11/eigen/matrix.h \
+  /opt/homebrew/include/pybind11/numpy.h \
+  /opt/homebrew/include/pybind11/complex.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/complex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/iota.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/pstl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/reduce.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
+  /opt/homebrew/include/pybind11/eigen/common.h \
   /opt/homebrew/include/eigen3/Eigen/Core \
   /opt/homebrew/include/eigen3/Eigen/Version \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
@@ -984,7 +1003,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_bf16.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_vector_types.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_fp16.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/complex \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/MKL_support.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/Constants.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/Meta.h \
@@ -1123,6 +1141,49 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: \
   /opt/homebrew/include/eigen3/Eigen/src/Core/StlIterators.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /opt/homebrew/include/eigen3/Eigen/SparseCore \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/./InternalHeaderCheck.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/CommonCwiseUnaryOps.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/CommonCwiseBinaryOps.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/MatrixCwiseUnaryOps.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/MatrixCwiseBinaryOps.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/BlockMethods.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseAssign.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/AmbiVector.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseMap.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseVector.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseRef.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseBlock.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseDot.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseRedux.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseView.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseProduct.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h \
+  /opt/homebrew/include/pybind11/stl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/valarray \
+  /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/mlat.hpp \
+  /opt/homebrew/include/eigen3/Eigen/Dense \
   /opt/homebrew/include/eigen3/Eigen/LU \
   /opt/homebrew/include/eigen3/Eigen/src/misc/Kernel.h \
   /opt/homebrew/include/eigen3/Eigen/src/misc/./InternalHeaderCheck.h \
