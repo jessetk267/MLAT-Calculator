@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o"
   "CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o.d"
-  "cmake_mlat.cpython-314-darwin.so"
+  "cmake_mlat.cpython-313-darwin.so"
   "cmake_mlat.pdb"
 )
 

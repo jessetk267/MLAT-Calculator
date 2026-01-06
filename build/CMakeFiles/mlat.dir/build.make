@@ -76,15 +76,15 @@ CMakeFiles/mlat.dir/src/mlat.cpp.o: CMakeFiles/mlat.dir/flags.make
 CMakeFiles/mlat.dir/src/mlat.cpp.o: /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/mlat.cpp
 CMakeFiles/mlat.dir/src/mlat.cpp.o: CMakeFiles/mlat.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jessekim/Documents/GitHub/MLAT-Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mlat.dir/src/mlat.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mlat.dir/src/mlat.cpp.o -MF CMakeFiles/mlat.dir/src/mlat.cpp.o.d -o CMakeFiles/mlat.dir/src/mlat.cpp.o -c /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/mlat.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mlat.dir/src/mlat.cpp.o -MF CMakeFiles/mlat.dir/src/mlat.cpp.o.d -o CMakeFiles/mlat.dir/src/mlat.cpp.o -c /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/mlat.cpp
 
 CMakeFiles/mlat.dir/src/mlat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mlat.dir/src/mlat.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/mlat.cpp > CMakeFiles/mlat.dir/src/mlat.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/mlat.cpp > CMakeFiles/mlat.dir/src/mlat.cpp.i
 
 CMakeFiles/mlat.dir/src/mlat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mlat.dir/src/mlat.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/mlat.cpp -o CMakeFiles/mlat.dir/src/mlat.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/mlat.cpp -o CMakeFiles/mlat.dir/src/mlat.cpp.s
 
 # Object files for target mlat
 mlat_OBJECTS = \
