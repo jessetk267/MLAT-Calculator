@@ -117,24 +117,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named mlat_cpp
+# Target rules for targets named mlat
 
 # Build rule for target.
-mlat_cpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mlat_cpp
-.PHONY : mlat_cpp
+mlat: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mlat
+.PHONY : mlat
 
 # fast build rule for target.
-mlat_cpp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/build
-.PHONY : mlat_cpp/fast
+mlat/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat.dir/build.make CMakeFiles/mlat.dir/build
+.PHONY : mlat/fast
+
+#=============================================================================
+# Target rules for targets named cmake_mlat
+
+# Build rule for target.
+cmake_mlat: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake_mlat
+.PHONY : cmake_mlat
+
+# fast build rule for target.
+cmake_mlat/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmake_mlat.dir/build.make CMakeFiles/cmake_mlat.dir/build
+.PHONY : cmake_mlat/fast
 
 src/bindings.o: src/bindings.cpp.o
 .PHONY : src/bindings.o
 
 # target to build an object file
 src/bindings.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/src/bindings.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmake_mlat.dir/build.make CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o
 .PHONY : src/bindings.cpp.o
 
 src/bindings.i: src/bindings.cpp.i
@@ -142,7 +155,7 @@ src/bindings.i: src/bindings.cpp.i
 
 # target to preprocess a source file
 src/bindings.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/src/bindings.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmake_mlat.dir/build.make CMakeFiles/cmake_mlat.dir/src/bindings.cpp.i
 .PHONY : src/bindings.cpp.i
 
 src/bindings.s: src/bindings.cpp.s
@@ -150,7 +163,7 @@ src/bindings.s: src/bindings.cpp.s
 
 # target to generate assembly for a file
 src/bindings.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/src/bindings.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmake_mlat.dir/build.make CMakeFiles/cmake_mlat.dir/src/bindings.cpp.s
 .PHONY : src/bindings.cpp.s
 
 src/mlat.o: src/mlat.cpp.o
@@ -158,7 +171,7 @@ src/mlat.o: src/mlat.cpp.o
 
 # target to build an object file
 src/mlat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/src/mlat.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat.dir/build.make CMakeFiles/mlat.dir/src/mlat.cpp.o
 .PHONY : src/mlat.cpp.o
 
 src/mlat.i: src/mlat.cpp.i
@@ -166,7 +179,7 @@ src/mlat.i: src/mlat.cpp.i
 
 # target to preprocess a source file
 src/mlat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/src/mlat.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat.dir/build.make CMakeFiles/mlat.dir/src/mlat.cpp.i
 .PHONY : src/mlat.cpp.i
 
 src/mlat.s: src/mlat.cpp.s
@@ -174,7 +187,7 @@ src/mlat.s: src/mlat.cpp.s
 
 # target to generate assembly for a file
 src/mlat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/src/mlat.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat.dir/build.make CMakeFiles/mlat.dir/src/mlat.cpp.s
 .PHONY : src/mlat.cpp.s
 
 # Help Target
@@ -185,7 +198,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... mlat_cpp"
+	@echo "... cmake_mlat"
+	@echo "... mlat"
 	@echo "... src/bindings.o"
 	@echo "... src/bindings.i"
 	@echo "... src/bindings.s"

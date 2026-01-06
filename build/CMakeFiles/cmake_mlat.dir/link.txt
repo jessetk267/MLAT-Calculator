@@ -1,0 +1,1 @@
+/usr/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Xlinker -undefined -Xlinker dynamic_lookup -flto -bundle -Wl,-headerpad_max_install_names -o cmake_mlat.cpython-314-darwin.so CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o  libmlat.a

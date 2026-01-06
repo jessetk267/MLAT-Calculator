@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <Eigen/Dense>
-#include <pybind11/pybind11.h>
+#include "mlat.hpp"
 
 //Compile with:
 /**
@@ -24,11 +24,6 @@ std::vector<double> findRanges(const Eigen::Vector3d x_true, const std::vector<E
     }
 
     return S;
-}
-
-PYBIND11_MODULE(ranges_module, m) {
-    m.doc() = "module for computing ranges";
-    m.def("find_ranges", &findRanges);
 }
 
 Eigen::Vector3d findPoint(const std::vector<Eigen::Vector3d> references, const std::vector<double> ranges) {
@@ -70,27 +65,27 @@ Eigen::Vector3d findErrorVector (const Eigen::Vector3d x_true, const Eigen::Vect
     return x_est - x_true;
 }
 
-int main() {
-    using Eigen::Vector3d;
+// int main() {
+//     using Eigen::Vector3d;
 
-    Vector3d x_true(0.1, 0.3, 0.8);
+//     Vector3d x_true(0.1, 0.3, 0.8);
 
-    std::vector<Vector3d> references = {
-        {0.0, 0.0, 0.0},
-        {1.0, 0.0, 1.0},
-        {0.0, 1.0, 1.0},
-        {1.0, 1.0, 0.0}
-    };
+//     std::vector<Vector3d> references = {
+//         {0.0, 0.0, 0.0},
+//         {1.0, 0.0, 1.0},
+//         {0.0, 1.0, 1.0},
+//         {1.0, 1.0, 0.0}
+//     };
 
-    std::vector<double> ranges = findRanges(x_true, references);
+//     std::vector<double> ranges = findRanges(x_true, references);
 
-    Vector3d x_est = findPoint(references, ranges);
+//     Vector3d x_est = findPoint(references, ranges);
 
-    double error = findError(x_true, x_est);
+//     double error = findError(x_true, x_est);
 
-    std::cout << "True position:\n" << x_true.transpose() << "\n\n";
-    std::cout << "Estimated position:\n" << x_est.transpose() << "\n\n";
-    std::cout << "Position error:\n" << error << std::endl;
+//     std::cout << "True position:\n" << x_true.transpose() << "\n\n";
+//     std::cout << "Estimated position:\n" << x_est.transpose() << "\n\n";
+//     std::cout << "Position error:\n" << error << std::endl;
 
-    return 0;
-}
+//     return 0;
+// }

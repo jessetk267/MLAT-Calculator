@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmlat.a CMakeFiles/mlat.dir/src/mlat.cpp.o
+/usr/bin/ranlib libmlat.a

@@ -63,11 +63,13 @@ CMAKE_BINARY_DIR = /Users/jessekim/Documents/GitHub/MLAT-Calculator/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/mlat_cpp.dir/all
+all: CMakeFiles/mlat.dir/all
+all: CMakeFiles/cmake_mlat.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/mlat_cpp.dir/codegen
+codegen: CMakeFiles/mlat.dir/codegen
+codegen: CMakeFiles/cmake_mlat.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +77,73 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/mlat_cpp.dir/clean
+clean: CMakeFiles/mlat.dir/clean
+clean: CMakeFiles/cmake_mlat.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/mlat_cpp.dir
+# Target rules for target CMakeFiles/mlat.dir
 
 # All Build rule for target.
-CMakeFiles/mlat_cpp.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jessekim/Documents/GitHub/MLAT-Calculator/build/CMakeFiles --progress-num=1,2,3 "Built target mlat_cpp"
-.PHONY : CMakeFiles/mlat_cpp.dir/all
+CMakeFiles/mlat.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat.dir/build.make CMakeFiles/mlat.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat.dir/build.make CMakeFiles/mlat.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jessekim/Documents/GitHub/MLAT-Calculator/build/CMakeFiles --progress-num=3,4 "Built target mlat"
+.PHONY : CMakeFiles/mlat.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/mlat_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jessekim/Documents/GitHub/MLAT-Calculator/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mlat_cpp.dir/all
+CMakeFiles/mlat.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jessekim/Documents/GitHub/MLAT-Calculator/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mlat.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jessekim/Documents/GitHub/MLAT-Calculator/build/CMakeFiles 0
-.PHONY : CMakeFiles/mlat_cpp.dir/rule
+.PHONY : CMakeFiles/mlat.dir/rule
 
 # Convenience name for target.
-mlat_cpp: CMakeFiles/mlat_cpp.dir/rule
-.PHONY : mlat_cpp
+mlat: CMakeFiles/mlat.dir/rule
+.PHONY : mlat
 
 # codegen rule for target.
-CMakeFiles/mlat_cpp.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jessekim/Documents/GitHub/MLAT-Calculator/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target mlat_cpp"
-.PHONY : CMakeFiles/mlat_cpp.dir/codegen
+CMakeFiles/mlat.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat.dir/build.make CMakeFiles/mlat.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jessekim/Documents/GitHub/MLAT-Calculator/build/CMakeFiles --progress-num=3,4 "Finished codegen for target mlat"
+.PHONY : CMakeFiles/mlat.dir/codegen
 
 # clean rule for target.
-CMakeFiles/mlat_cpp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/clean
-.PHONY : CMakeFiles/mlat_cpp.dir/clean
+CMakeFiles/mlat.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat.dir/build.make CMakeFiles/mlat.dir/clean
+.PHONY : CMakeFiles/mlat.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/cmake_mlat.dir
+
+# All Build rule for target.
+CMakeFiles/cmake_mlat.dir/all: CMakeFiles/mlat.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmake_mlat.dir/build.make CMakeFiles/cmake_mlat.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmake_mlat.dir/build.make CMakeFiles/cmake_mlat.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jessekim/Documents/GitHub/MLAT-Calculator/build/CMakeFiles --progress-num=1,2 "Built target cmake_mlat"
+.PHONY : CMakeFiles/cmake_mlat.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cmake_mlat.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jessekim/Documents/GitHub/MLAT-Calculator/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cmake_mlat.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jessekim/Documents/GitHub/MLAT-Calculator/build/CMakeFiles 0
+.PHONY : CMakeFiles/cmake_mlat.dir/rule
+
+# Convenience name for target.
+cmake_mlat: CMakeFiles/cmake_mlat.dir/rule
+.PHONY : cmake_mlat
+
+# codegen rule for target.
+CMakeFiles/cmake_mlat.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmake_mlat.dir/build.make CMakeFiles/cmake_mlat.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jessekim/Documents/GitHub/MLAT-Calculator/build/CMakeFiles --progress-num=1,2 "Finished codegen for target cmake_mlat"
+.PHONY : CMakeFiles/cmake_mlat.dir/codegen
+
+# clean rule for target.
+CMakeFiles/cmake_mlat.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmake_mlat.dir/build.make CMakeFiles/cmake_mlat.dir/clean
+.PHONY : CMakeFiles/cmake_mlat.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
