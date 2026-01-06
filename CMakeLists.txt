@@ -10,7 +10,7 @@ find_package(Eigen3 REQUIRED)
 
 pybind11_add_module(mlat_cpp
     src/bindings.cpp
-    src/multilateration.cpp
+    src/mlat.cpp
 )
 
 target_link_libraries(mlat_cpp

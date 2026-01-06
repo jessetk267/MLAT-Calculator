@@ -86,30 +86,30 @@ CMakeFiles/mlat_cpp.dir/src/bindings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mlat_cpp.dir/src/bindings.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/bindings.cpp -o CMakeFiles/mlat_cpp.dir/src/bindings.cpp.s
 
-CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.o: CMakeFiles/mlat_cpp.dir/flags.make
-CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.o: /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/multilateration.cpp
-CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.o: CMakeFiles/mlat_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jessekim/Documents/GitHub/MLAT-Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.o -MF CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.o.d -o CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.o -c /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/multilateration.cpp
+CMakeFiles/mlat_cpp.dir/src/mlat.cpp.o: CMakeFiles/mlat_cpp.dir/flags.make
+CMakeFiles/mlat_cpp.dir/src/mlat.cpp.o: /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/mlat.cpp
+CMakeFiles/mlat_cpp.dir/src/mlat.cpp.o: CMakeFiles/mlat_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jessekim/Documents/GitHub/MLAT-Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mlat_cpp.dir/src/mlat.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mlat_cpp.dir/src/mlat.cpp.o -MF CMakeFiles/mlat_cpp.dir/src/mlat.cpp.o.d -o CMakeFiles/mlat_cpp.dir/src/mlat.cpp.o -c /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/mlat.cpp
 
-CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/multilateration.cpp > CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.i
+CMakeFiles/mlat_cpp.dir/src/mlat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mlat_cpp.dir/src/mlat.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/mlat.cpp > CMakeFiles/mlat_cpp.dir/src/mlat.cpp.i
 
-CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/multilateration.cpp -o CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.s
+CMakeFiles/mlat_cpp.dir/src/mlat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mlat_cpp.dir/src/mlat.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/mlat.cpp -o CMakeFiles/mlat_cpp.dir/src/mlat.cpp.s
 
 # Object files for target mlat_cpp
 mlat_cpp_OBJECTS = \
 "CMakeFiles/mlat_cpp.dir/src/bindings.cpp.o" \
-"CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.o"
+"CMakeFiles/mlat_cpp.dir/src/mlat.cpp.o"
 
 # External object files for target mlat_cpp
 mlat_cpp_EXTERNAL_OBJECTS =
 
 mlat_cpp.cpython-314-darwin.so: CMakeFiles/mlat_cpp.dir/src/bindings.cpp.o
-mlat_cpp.cpython-314-darwin.so: CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.o
+mlat_cpp.cpython-314-darwin.so: CMakeFiles/mlat_cpp.dir/src/mlat.cpp.o
 mlat_cpp.cpython-314-darwin.so: CMakeFiles/mlat_cpp.dir/build.make
 mlat_cpp.cpython-314-darwin.so: /Library/Frameworks/Python.framework/Versions/3.14/lib/libpython3.14.dylib
 mlat_cpp.cpython-314-darwin.so: CMakeFiles/mlat_cpp.dir/link.txt

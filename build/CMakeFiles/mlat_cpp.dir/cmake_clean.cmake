@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mlat_cpp.dir/src/bindings.cpp.o"
   "CMakeFiles/mlat_cpp.dir/src/bindings.cpp.o.d"
-  "CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.o"
-  "CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.o.d"
+  "CMakeFiles/mlat_cpp.dir/src/mlat.cpp.o"
+  "CMakeFiles/mlat_cpp.dir/src/mlat.cpp.o.d"
   "mlat_cpp.cpython-314-darwin.so"
   "mlat_cpp.pdb"
 )

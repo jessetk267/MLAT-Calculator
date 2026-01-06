@@ -2,13 +2,10 @@
 #include <vector>
 #include <Eigen/Dense>
 #include <pybind11/pybind11.h>
-#include <pybind11/stl.h>
-
-namespace py = pybind11;
 
 //Compile with:
 /**
- * g++ -std=c++17 multilateration.cpp \
+ * clang++ -std=c++17 mlat.cpp \
     -I /opt/homebrew/include/eigen3 \
     -O2 -o mlat
  */
@@ -27,6 +24,11 @@ std::vector<double> findRanges(const Eigen::Vector3d x_true, const std::vector<E
     }
 
     return S;
+}
+
+PYBIND11_MODULE(ranges_module, m) {
+    m.doc() = "module for computing ranges";
+    m.def("find_ranges", &findRanges);
 }
 
 Eigen::Vector3d findPoint(const std::vector<Eigen::Vector3d> references, const std::vector<double> ranges) {
@@ -62,6 +64,10 @@ Eigen::Vector3d findPoint(const std::vector<Eigen::Vector3d> references, const s
 
 double findError(const Eigen::Vector3d x_true, const Eigen::Vector3d x_est) {
     return (x_est - x_true).norm();
+}
+
+Eigen::Vector3d findErrorVector (const Eigen::Vector3d x_true, const Eigen::Vector3d x_est) {
+    return x_est - x_true;
 }
 
 int main() {

@@ -153,29 +153,29 @@ src/bindings.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/src/bindings.cpp.s
 .PHONY : src/bindings.cpp.s
 
-src/multilateration.o: src/multilateration.cpp.o
-.PHONY : src/multilateration.o
+src/mlat.o: src/mlat.cpp.o
+.PHONY : src/mlat.o
 
 # target to build an object file
-src/multilateration.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.o
-.PHONY : src/multilateration.cpp.o
+src/mlat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/src/mlat.cpp.o
+.PHONY : src/mlat.cpp.o
 
-src/multilateration.i: src/multilateration.cpp.i
-.PHONY : src/multilateration.i
+src/mlat.i: src/mlat.cpp.i
+.PHONY : src/mlat.i
 
 # target to preprocess a source file
-src/multilateration.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.i
-.PHONY : src/multilateration.cpp.i
+src/mlat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/src/mlat.cpp.i
+.PHONY : src/mlat.cpp.i
 
-src/multilateration.s: src/multilateration.cpp.s
-.PHONY : src/multilateration.s
+src/mlat.s: src/mlat.cpp.s
+.PHONY : src/mlat.s
 
 # target to generate assembly for a file
-src/multilateration.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/src/multilateration.cpp.s
-.PHONY : src/multilateration.cpp.s
+src/mlat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlat_cpp.dir/build.make CMakeFiles/mlat_cpp.dir/src/mlat.cpp.s
+.PHONY : src/mlat.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... src/bindings.o"
 	@echo "... src/bindings.i"
 	@echo "... src/bindings.s"
-	@echo "... src/multilateration.o"
-	@echo "... src/multilateration.i"
-	@echo "... src/multilateration.s"
+	@echo "... src/mlat.o"
+	@echo "... src/mlat.i"
+	@echo "... src/mlat.s"
 .PHONY : help
 
 
