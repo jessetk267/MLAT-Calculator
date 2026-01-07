@@ -15,6 +15,14 @@ PYBIND11_MODULE(cmake_mlat, m) {
     );
 
     m.def(
+        "find_range_vectors",
+        &findRangeVectors,
+        py::arg("x_true"),
+        py::arg("references"),
+        "Compute vectors pointing to target point from reference points"
+    );
+
+    m.def(
         "find_point",
         &findPoint,
         py::arg("references"),

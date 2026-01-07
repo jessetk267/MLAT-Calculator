@@ -26,6 +26,19 @@ std::vector<double> findRanges(const Eigen::Vector3d x_true, const std::vector<E
     return S;
 }
 
+std::vector<Eigen::Vector3d> findRangeVectors(const Eigen::Vector3d& x_true, const std::vector<Eigen::Vector3d>& references) {
+    
+    std::vector<Eigen::Vector3d> rangeVectors;
+    
+    rangeVectors.reserve(references.size());
+
+    for (const auto& r : references) {
+        rangeVectors.push_back(x_true - r);
+    }
+    return rangeVectors;
+}
+
+
 Eigen::Vector3d findPoint(const std::vector<Eigen::Vector3d> references, const std::vector<double> ranges) {
     using Eigen::Vector3d;
     using Eigen::MatrixXd;

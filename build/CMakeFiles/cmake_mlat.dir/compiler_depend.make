@@ -393,7 +393,19 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/nothrow_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/placement_new_delete.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/iota.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/partial_sum.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/pstl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/reduce.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/put_character_sequence.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_valid.h \
@@ -429,6 +441,7 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support/pthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/find_index.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/ignore.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h \
@@ -488,6 +501,7 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_empty.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_enum.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_equality_comparable.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_final.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_floating_point.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_function.h \
@@ -615,6 +629,7 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
@@ -626,16 +641,20 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stddef.h \
@@ -656,6 +675,7 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/valarray \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/variant \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/version \
@@ -838,6 +858,7 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
   /opt/homebrew/include/eigen3/Eigen/LU \
   /opt/homebrew/include/eigen3/Eigen/QR \
   /opt/homebrew/include/eigen3/Eigen/SVD \
+  /opt/homebrew/include/eigen3/Eigen/SparseCore \
   /opt/homebrew/include/eigen3/Eigen/Version \
   /opt/homebrew/include/eigen3/Eigen/src/Cholesky/InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/Cholesky/LDLT.h \
@@ -1042,12 +1063,47 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
   /opt/homebrew/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
   /opt/homebrew/include/eigen3/Eigen/src/SVD/SVDBase.h \
   /opt/homebrew/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
+  /opt/homebrew/include/eigen3/Eigen/src/plugins/BlockMethods.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.inc \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/InternalHeaderCheck.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/AmbiVector.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseAssign.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseBlock.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseDot.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseMap.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseProduct.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseRedux.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseRef.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseVector.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseView.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h \
   /opt/homebrew/include/eigen3/Eigen/src/misc/InternalHeaderCheck.h \
   /opt/homebrew/include/eigen3/Eigen/src/misc/Image.h \
   /opt/homebrew/include/eigen3/Eigen/src/misc/Kernel.h \
   /opt/homebrew/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
   /opt/homebrew/include/pybind11/attr.h \
   /opt/homebrew/include/pybind11/cast.h \
+  /opt/homebrew/include/pybind11/complex.h \
   /opt/homebrew/include/pybind11/conduit/pybind11_platform_abi_id.h \
   /opt/homebrew/include/pybind11/conduit/wrap_include_python_h.h \
   /opt/homebrew/include/pybind11/buffer_info.h \
@@ -1069,12 +1125,17 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
   /opt/homebrew/include/pybind11/detail/typeid.h \
   /opt/homebrew/include/pybind11/detail/using_smart_holder.h \
   /opt/homebrew/include/pybind11/detail/value_and_holder.h \
+  /opt/homebrew/include/pybind11/eigen.h \
+  /opt/homebrew/include/pybind11/eigen/common.h \
+  /opt/homebrew/include/pybind11/eigen/matrix.h \
   /opt/homebrew/include/pybind11/gil.h \
   /opt/homebrew/include/pybind11/gil_safe_call_once.h \
   /opt/homebrew/include/pybind11/gil_simple.h \
+  /opt/homebrew/include/pybind11/numpy.h \
   /opt/homebrew/include/pybind11/options.h \
   /opt/homebrew/include/pybind11/pybind11.h \
   /opt/homebrew/include/pybind11/pytypes.h \
+  /opt/homebrew/include/pybind11/stl.h \
   /opt/homebrew/include/pybind11/trampoline_self_life_support.h \
   /opt/homebrew/include/pybind11/typing.h \
   /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/Python.h \
@@ -1228,8 +1289,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pyconfig.h:
 
-/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pycapsule.h:
-
 /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pyatomic.h:
 
 /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/patchlevel.h:
@@ -1294,8 +1353,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/monitoring.h:
 
-/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/longobject.h:
-
 /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/lock.h:
 
 /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/listobject.h:
@@ -1326,8 +1383,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/cellobject.h:
 
-/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/bytearrayobject.h:
-
 /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/complexobject.h:
 
 /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/compile.h:
@@ -1344,15 +1399,21 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/Python.h:
 
+/opt/homebrew/include/pybind11/stl.h:
+
 /opt/homebrew/include/pybind11/pybind11.h:
 
 /opt/homebrew/include/pybind11/options.h:
+
+/opt/homebrew/include/pybind11/numpy.h:
 
 /opt/homebrew/include/pybind11/gil_simple.h:
 
 /opt/homebrew/include/pybind11/gil_safe_call_once.h:
 
 /opt/homebrew/include/pybind11/gil.h:
+
+/opt/homebrew/include/pybind11/eigen/matrix.h:
 
 /opt/homebrew/include/pybind11/detail/using_smart_holder.h:
 
@@ -1374,6 +1435,8 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /opt/homebrew/include/pybind11/conduit/pybind11_platform_abi_id.h:
 
+/opt/homebrew/include/pybind11/complex.h:
+
 /opt/homebrew/include/pybind11/attr.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/misc/RealSvd2x2.h:
@@ -1381,6 +1444,42 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /opt/homebrew/include/eigen3/Eigen/src/misc/Kernel.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/misc/InternalHeaderCheck.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseView.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h:
+
+/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pycapsule.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseRedux.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseMap.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h:
+
+/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/longobject.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseAssign.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/AmbiVector.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
 
@@ -1572,10 +1671,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/Fill.h:
 
-/opt/homebrew/include/eigen3/Eigen/src/Core/EigenBase.h:
-
-/opt/homebrew/include/eigen3/Eigen/src/Core/Dot.h:
-
 /opt/homebrew/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
@@ -1589,8 +1684,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseUnaryView.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
-
-/opt/homebrew/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
 
@@ -1632,6 +1725,8 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /opt/homebrew/include/eigen3/Eigen/src/Cholesky/InternalHeaderCheck.h:
 
+/opt/homebrew/include/eigen3/Eigen/SparseCore:
+
 /opt/homebrew/include/eigen3/Eigen/QR:
 
 /opt/homebrew/include/eigen3/Eigen/Householder:
@@ -1652,13 +1747,13 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h:
-
 /opt/homebrew/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.inc:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_vector_types.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseVector.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h:
 
@@ -1672,6 +1767,8 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_null.h:
 
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/InternalHeaderCheck.h:
+
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_max_align_t.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg___gnuc_va_list.h:
@@ -1684,31 +1781,41 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h:
 
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseDot.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_cv_quals.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/is_valid_range.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h:
+/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pymem.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/noexcept_move_assign_container.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/nl_types.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h:
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/SVD/SVDBase.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:
 
@@ -1856,6 +1963,8 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /opt/homebrew/include/eigen3/Eigen/src/Geometry/Rotation2D.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:
 
 /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/structseq.h:
@@ -1918,6 +2027,12 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/noexcept_move_assign_container.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/nl_types.h:
+
 /opt/homebrew/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Geometry/Quaternion.h:
@@ -1936,8 +2051,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print:
-
 /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/tupleobject.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:
@@ -1948,7 +2061,11 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/optional:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric:
+
+/opt/homebrew/include/eigen3/Eigen/src/Core/Dot.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/list:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:
 
@@ -1966,6 +2083,10 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format:
 
+/opt/homebrew/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/execution:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h:
@@ -1975,6 +2096,8 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwctype:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/_structs.h:
 
@@ -1993,6 +2116,8 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/atomic:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:
 
@@ -2015,6 +2140,8 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_out_result.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__variant/monostate.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/unreachable.h:
 
@@ -2068,8 +2195,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/void_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator:
@@ -2077,8 +2202,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pystrtod.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/type_list.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle:
 
@@ -2200,10 +2323,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_fundamental.h:
 
-/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pymem.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h:
-
 /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pymath.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_function.h:
@@ -2222,6 +2341,12 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_final.h:
 
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseProduct.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/container_traits.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_destructible.h:
@@ -2239,6 +2364,12 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_const.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_cv_quals.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/is_valid_range.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/byte.h:
 
@@ -2275,6 +2406,8 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/integral_constant.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h:
 
@@ -2318,9 +2451,9 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/copy_cv.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/container_traits.h:
-
 /opt/homebrew/include/pybind11/detail/value_and_holder.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseBlock.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/conjunction.h:
 
@@ -2351,12 +2484,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /opt/homebrew/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_rvalue_reference.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_array.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_lvalue_reference.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h:
 
@@ -2394,11 +2521,9 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/arm/_structs.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/find_index.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h:
 
@@ -2438,11 +2563,15 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
 
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h:
+
 /opt/homebrew/include/eigen3/Eigen/src/Core/GeneralProduct.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/promote.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/size.h:
 
@@ -2492,9 +2621,47 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/log2.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_valid.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_size.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/put_character_sequence.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_array.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_lvalue_reference.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/reduce.h:
+
+/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/bytearrayobject.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/pstl.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/partial_sum.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/iota.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_aggregate.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/nested_exception.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/Core/EigenBase.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/unreachable_sentinel.h:
 
@@ -2517,10 +2684,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_intersection.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/tag_types.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_valid.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
 
@@ -2640,8 +2803,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/fdim.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/log2.h:
-
 /opt/homebrew/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:
@@ -2742,6 +2903,8 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/traceback.h:
 
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseUtil.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_n.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/pair.h:
@@ -2775,6 +2938,8 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/default_sentinel.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/data.h:
 
@@ -2874,6 +3039,10 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/qos.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/construct_at.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
@@ -2932,8 +3101,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_signed.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site:
@@ -2945,12 +3112,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_aggregate.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/nested_exception.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__undef_macros:
 
@@ -2965,12 +3126,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/different_from.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_bounded_array.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/hash.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/derived_from.h:
 
@@ -3036,8 +3191,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/popcount.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support/pthread.h:
@@ -3083,6 +3236,8 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /opt/homebrew/include/eigen3/Eigen/SVD:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/countr.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseRef.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
 
@@ -3138,7 +3293,17 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_cast.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/arm/_structs.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/clocale:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_bounded_array.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/hash.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/synth_three_way.h:
 
@@ -3159,6 +3324,8 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_unsigned.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/support.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/valarray:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/search.h:
 
@@ -3185,8 +3352,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_iterator_concept.h:
 
@@ -3220,6 +3385,8 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_def.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.inc:
@@ -3247,8 +3414,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/destruct_n.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno:
 
@@ -3292,6 +3457,8 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/reference_wrapper.h:
 
+/opt/homebrew/include/pybind11/eigen.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list:
@@ -3303,6 +3470,10 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/copyable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/view_interface.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h:
 
@@ -3368,6 +3539,8 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__xlocale.h:
 
+/opt/homebrew/include/pybind11/eigen/common.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/new:
@@ -3381,8 +3554,6 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/none_of.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h:
 
@@ -3407,6 +3578,8 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/empty.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h:
 
 /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/bindings.cpp:
 
@@ -3528,13 +3701,13 @@ CMakeFiles/cmake_mlat.dir/src/bindings.cpp.o: /Users/jessekim/Documents/GitHub/M
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/partial_sum.h:
-
 /Users/jessekim/Documents/GitHub/MLAT-Calculator/src/mlat.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/pmr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_cvref.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctrans_t.h:
 
